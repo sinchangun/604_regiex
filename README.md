@@ -97,6 +97,19 @@ https://regexr.com/5mhou
 # {min,max} : 최소 그리고 최대
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3ae102f-4b85-4f70-bddf-ed8282e0ce99)
 
+# \b : 단어경계 --> /\bYa/ --> 단어중에서 Ya로 시작하는것
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/1db98e61-4fc9-48a9-9d9b-4de144990f3d)
+
+# \b : 단어경계 --> /Ya\b/ --> 단어중에서 Ya로 끝나는것
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/47d85aaa-095f-46a6-9cf4-c186bb299979)
+
+# \B : 단어경계 --> /Ya\B/ --> ya인데 단어중에서 ya로 끝나는 ya를 찾아라
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/d493a3f0-de78-4cce-9ebe-88fe6a417195)
+
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/5b9eaf59-b521-4fa4-ab6c-edfa55f25fcf)
+
+#
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/ab8180f6-8e77-4dfe-9453-09f2f29a064f)
 
 
 
@@ -104,3 +117,4 @@ https://regexr.com/5mhou
    - \B  : 단어경계가 아님
    - ^   : 문장의 시작
    - $   : 문장의 끝
+
