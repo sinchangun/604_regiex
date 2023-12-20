@@ -103,12 +103,10 @@ https://regexr.com/5mhou
 # \b : 단어경계 --> /Ya\b/ --> 단어중에서 Ya로 끝나는것
 ![image](https://github.com/sinchangun/604_regiex/assets/145514301/47d85aaa-095f-46a6-9cf4-c186bb299979)
 
-# \B : 단어경계 --> /Ya\B/ --> ya인데 단어중에서 ya로 끝나는 ya를 찾아라
+# \B : 단어경계x --> /Ya\B/ --> ya인데 단어중에서 ya로 끝나는 ya를 찾아라
 ![image](https://github.com/sinchangun/604_regiex/assets/145514301/d493a3f0-de78-4cce-9ebe-88fe6a417195)
 
-![image](https://github.com/sinchangun/604_regiex/assets/145514301/5b9eaf59-b521-4fa4-ab6c-edfa55f25fcf)
-
-#
+# ^ 문장의 시작 --> /^Ya/ --> 문장의 시작인 Ya 만약 문장의 끝인 Ya를 찾고싶으면 /Ya$/ 를 쓰면된다.
 ![image](https://github.com/sinchangun/604_regiex/assets/145514301/ab8180f6-8e77-4dfe-9453-09f2f29a064f)
 
 
@@ -117,4 +115,19 @@ https://regexr.com/5mhou
    - \B  : 단어경계가 아님
    - ^   : 문장의 시작
    - $   : 문장의 끝
+
+# /./ 모든문자
+
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/ca336bb5-9b4b-487b-8fc1-55f23dcc24cf)
+
+# \: 특수문자 --> 특수문자 마침표 . 를 찾으려고할때
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/82683b0b-8319-4cd4-9751-da6c291485bd).
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/17dbe51a-bc54-4a2f-8a35-e7405b882f2c)
+
+# \d 숫자를 다찾고싶을때
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/a0500f0f-2ce7-4bd2-80cc-55fb3b967cf2)
+
+# \w 숫자와 글자를 다찾고싶을때
+![image](https://github.com/sinchangun/604_regiex/assets/145514301/99f336ee-0184-479e-8f7d-694c31dd67d2)
+
 
